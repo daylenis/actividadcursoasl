@@ -1,0 +1,164 @@
+    1  ls
+    2  history
+    3  history
+    4  mkdir evaluacion
+    5  ls
+    6  cd evaluacion/
+    7  git clone https://github.com/julioh/cursoasl.git
+    8  ls
+    9  cd cursoasl/
+   10  ls
+   11  gedit evaluacion.txt
+   12  git clone https://github.com/daylenis/actividadcursoasl.git
+   13  ls
+   14  cd ..
+   15  ls
+   16  cd cursoasl/
+   17  ls
+   18  cp evaluacion.txt actividadcursoasl/evaluacion.txt
+   19  cd actividadcursoasl/
+   20  ls
+   21  mv evaluacion.txt daylenis.txt
+   22  ls
+   23  mv daylenis.txt daylenis ramos.txt
+   24  mv daylenis.txt daylenis_ramos.txt
+   25  ls
+   26  git commit -a
+   27  git add .
+   28  git commit -a
+   29  touch curso1.tx 
+   30  ls
+   31  mv curso1.tx curso1.txt
+   32  ls
+   33  touch curso2.txt
+   34  touch curso3.txt
+   35  touch curso4.txt
+   36  touch curso5.txt
+   37  ls
+   38  dh -f
+   39  df -h
+   40  ls
+   41  ls -la
+   42  chmod 065 curso1.txt 
+   43  ls
+   44  ls -la
+   45  chmod 726 curso2.txt 
+   46  chmod 111 curso3.txt 
+   47  chmod 227 curso4.txt 
+   48  chmod 064 curso5.txt 
+   49  ls -la
+   50  mkdir cunaguar
+   51  mv cunaguar cunaguaro
+   52  ls
+   53  cd cunaguaro/
+   54  ps -aux | grep cunaguaro
+   55  ps -aux | grep cunaguaro >> cunaguaro.txt
+   56  cd ..
+   57  ps -aux | grep cunaguaro >> cunaguaro.txt
+   58  ls
+   59  cd cunaguaro/
+   60  ls
+   61  cd ..
+   62  ls
+   63  rm cunaguaro.txt 
+   64  ls
+   65  cd cunaguaro/
+   66  ls
+   67  cd ..
+   68  mkdir kernel
+   69  cd kernel/
+   70  ps -aux | grep cunaguaro >> kernel.txt
+   71  ls
+   72  mv kernel kernel1.0
+   73  ls
+   74  cd ..
+   75  mv kernel kernel1.0
+   76  ls
+   77  cd kernel1.0/
+   78  ls
+   79  cd ..
+   80  touch registros
+   81  ls
+   82  rm -rf registros 
+   83  ls
+   84  ls -la
+   85  chmod 777 daylenis_ramos.txt 
+   86  ls -la
+   87  mkdir sl
+   88  ls
+   89  cd sl
+   90  apt-get source sl
+   91  cd sl-3.03/
+   92  ls
+   93  nano sl.h
+   94  ls
+   95  aptitude remove --purge sl
+   96  ls
+   97  cd ..
+   98  dpkg -buildpackage -us -uc
+   99  ls
+  100  cd sl-3.03/
+  101  dpkg -buildpackage -us -uc
+  102  dpkg-buildpackage -us -uc
+  103  dpkg-source --commit
+  104  dpkg-buildpackage -us -uc
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  ls
+  110  mkdir canaima-semilla
+  111  ls
+  112  cd canaima-semilla/
+  113  ls
+  114  cd ..
+  115  cd /usr/share/canaima-semilla/
+  116  ls
+  117  cd profiles/
+  118  ls
+  119  nano primera-base/
+  120  ls
+  121  cd .
+  122  ls
+  123  cd ..
+  124  ls
+  125  cd pr
+  126  cd profiles/
+  127  ls
+  128  cd /home/equipo1/evaluacion/cursoasl/actividadcursoasl/
+  129  cd /usr/share/canaima-semilla/
+  130  cd /home/equipo1/evaluacion/cursoasl/actividadcursoasl/
+  131  ls
+  132  cd canaima-semilla/
+  133  ls
+  134  cd .
+  135  cd ..
+  136  ls
+  137  cd canaima-semilla/
+  138  ls
+  139  ls
+  140  cp -R /usr/share/canaima-semilla/profiles/primera-base/ .
+  141  ls
+  142  mv primera-base daylenis_canaima_semilla
+  143  ls
+  144  nano daylenis_canaima_semilla/
+  145  ls
+  146  cd profiles
+  147  c-s construir --medio="iso" --arquitectura="i386" --sabor="iso daylenis"
+  148  c-s construir --medio="iso" --arquitectura="i386" --sabor="daylenis_canaima_semilla"
+  149  ls
+  150  cd daylenis_canaima_semilla/
+  151  ls
+  152  nano profile.conf 
+  153  nano profile.conf 
+  154  ls
+  155  c-s construir --medio="iso" --arquitectura="i386" --sabor="daylenis_canaima_semilla"
+  156  ls
+  157  nano profile.conf 
+  158  history
+  159  history 
+  160  ls
+  161  cd ..
+  162  cd ..
+  163  ls
+  164  history >> history.txt

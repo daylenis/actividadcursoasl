@@ -21,7 +21,11 @@ history -c
 
 6-Como puedo visualizar las particiones del disco duro
 
+df -h 
+
 7-Como matamos un proceso del computador
+
+kill -9 numero del proceso
 
 8-Crear un carpeta llamada cunaguaro.
   -abrir cunaguaro
@@ -33,17 +37,15 @@ history -c
 
 10-Como configuras una interfaz de red con dhcp
 
+
 11-Que sucede cuando ejecutas el
 comando: touch registros
-- Copia el archivo registros al directorio actual.
+
 -Crea un archivo vacío llamado registros.
--Borra el archivo registros.
--Mueve el archivo registros al directorio actual
+
 
 12-El comando: more examen
-- Despliega el contenido del archivo examen, una pantalla a la vez.
-- Nos cambia al directorio examen.
-- Crea el archivo examen el directorio actual.
+
 - Muestra las primeras líneas del archivo examen
 
 13-crear un carpeta sl
@@ -53,25 +55,53 @@ con su nombre generar un nuevo paquete, e instalarlo
 
 14-comando para listar redes inalambricas.
 
+arp-scan --interface=wlan0 --localnet
+
 15-como funcionan x11vnc, pasos del cliente y servidor
 
+funciona para arrancar el servidor
+x11vnc
+instalar xtightvncviewer
+alt + f2 y colocar ip del equipó a conectar (remotamente).
+ 
 16- Como agregamos el usuario y gestionamos el cambio de contraseña
+
+adduser nombre usuario
+passwd nombre usuario
+
 
 17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
   llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
    subir dicha carpeta a github.
    - agregar un txt, con los pasos para ejecutar la creacion de la .iso
 
+ mkdir canaima-semilla
+ cd /home/equipo1/evaluacion/cursoasl/actividadcursoasl/
+ ls
+ cd canaima-semilla/
+cp -R /usr/share/canaima-semilla/profiles/primera-base/
+ mv primera-base daylenis_canaima_semilla
+ls
+ nano profile.conf
+modificamos el archivo profile
+ c-s construir --medio="iso" --arquitectura="i386" --sabor="daylenis_canaima_semilla"
+
+
 18- donde se modifican los repositorios en debian, 
    - cuales son los pasos para ejecutar un repositorio nuevo.
+
+en el archivo sorces.list
+aptitude update
 
 19- Las particiones de un disco se nombran mediante el nombre de dispositivo y el
 número de partición:
 
+si, ejemplo sda1, sda2
+
 20- Como hago un repositorio con debmirror, comando.
 
+debmirror sirve para crear repositorios espejo
+
+/nombre repositorio/var/www/debian
+
 21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
-
- 
-
-

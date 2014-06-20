@@ -1,0 +1,2 @@
+root      1044  0.0  0.0   7848   884 pts/0    S+   13:57   0:00 grep --color=auto cunaguaro
+equipo1   3380  4.0  9.0 1234764 365236 ?      Sl   08:19  13:43 cunaguaro
